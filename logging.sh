@@ -53,9 +53,13 @@ log_error() {
   log "ERROR" "$1" "$COLOR_ERROR"
 }
 
+log_api_call() {
+  log "API" "$1" "$COLOR_MISC"
+}
 # Example log messages
 # log_info "This is an informational message."
 # log_warning "This is a warning message."
 # log_success "This is a success message."
 # log_process "This is a processing message."
 # log_error "This is an error message."
+# log_api_call "This is a log api call message."
